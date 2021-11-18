@@ -54,7 +54,7 @@ const Portfolio = () => {
       <div className="container">
         {data.map((d) => (
           <div className="item">
-            <img src={d.img} alt="" />
+            <img width="130px" height="100px" src={d.img} alt="" />
 
             <h3>{d.title}</h3>
           </div>

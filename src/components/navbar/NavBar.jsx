@@ -6,7 +6,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
       <div className="wrapper">
         <div className="left">
           <a href="#about" className="logo">
-            genius.
+            Ror.
           </a>
           <div className="itemContainer">
             <Person className="icon" />

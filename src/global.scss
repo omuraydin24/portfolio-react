@@ -1,1 +1,9 @@
-$mainColor: grey;
+$mainColor: hsl(230, 69%, 61%);
+
+$width: 768px;
+
+@mixin mobile {
+  @media (max-width: #{$width}) {
+    @content;
+  }
+}

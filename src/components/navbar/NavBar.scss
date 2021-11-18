@@ -32,6 +32,10 @@
         align-items: center;
         margin-left: 30px;
 
+        @include mobile {
+          display: none;
+        }
+
         .icon {
           font-size: 18px;
           margin-right: 5px;
@@ -44,7 +48,6 @@
     }
 
     .right {
-
       .hamburger {
         width: 32px;
         height: 25px;
@@ -64,23 +67,21 @@
     }
   }
 
-  &.active{
+  &.active {
     background-color: white;
     color: $mainColor;
-    .hamburger{
-      span{
-        &:first-child{
+    .hamburger {
+      span {
+        &:first-child {
           background-color: $mainColor;
-          transform: rotate(45deg)
+          transform: rotate(45deg);
         }
-        &:nth-child(2){
-
-          opacity:0;
+        &:nth-child(2) {
+          opacity: 0;
         }
-        &:last-child{
+        &:last-child {
           background-color: $mainColor;
-          transform: rotate(-45deg)
-
+          transform: rotate(-45deg);
         }
       }
     }

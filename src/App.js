@@ -18,10 +18,11 @@ function App() {
       <div className="sections">
         <Intro />
         <Portfolio />
-        <Comments />
+        <Comments
+          currentUserId="1"
+        />
         <Contact />
       </div>
-      HELLO
     </div>
   );
 }
